@@ -484,7 +484,7 @@ angular.module('mgcrea.ngStrap.timepicker', ['mgcrea.ngStrap.helpers.dateParser'
 
         // Initialize parser
         var dateParser = $dateParser({
-          format: options.timeFormat,
+          format: 'HH:mm',
           lang: lang
         });
 
